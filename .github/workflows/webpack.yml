@@ -24,7 +24,7 @@ jobs:
 
     - name: Build
       run: |
-        npm install webpack
+        npm install webpack html-webpack-plugin
         npx webpack
         
     - name: Upload generated files as artifact
