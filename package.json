@@ -2,21 +2,20 @@
   "name": "webpack-demo",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danbzay/webpack-demo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "devDependencies": {
-    "@babel/core": "^7.28.3",
-    "babel-loader": "^10.0.0",
-    "webpack": "^5.101.2",
-    "webpack-cli": "^6.0.1"
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danbzay/webpack-demo/issues"
   },
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+  "homepage": "https://github.com/danbzay/webpack-demo#readme"
 }
