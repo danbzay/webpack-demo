@@ -13,9 +13,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/danbzay/webpack-demo/issues"
-  },
-  "homepage": "https://github.com/danbzay/webpack-demo#readme"
+  "devDependencies": {
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
 }
