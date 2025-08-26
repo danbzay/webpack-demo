@@ -29,6 +29,7 @@ jobs:
         
     - name: Upload generated files as artifact
       uses: actions/upload-pages-artifact@v3
+      id: deployment
       with:
         path: dist/
           
@@ -46,3 +47,4 @@ jobs:
     steps:
     - name: Deploy to GitHub Pages
       uses: actions/deploy-pages@v4
+      id: deployment
